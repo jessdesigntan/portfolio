@@ -55,6 +55,7 @@ nav .container {
   margin: 0 auto;
   display: table;
   width: 100%;
+  padding: 0 55px;
 }
 
 nav .container > div {
@@ -63,6 +64,20 @@ nav .container > div {
   height: 70px;
   vertical-align: middle;
 }
+
+nav .container a.logo {
+  display: inline-block;
+  cursor: pointer;
+}
+
+nav .container a {
+  transition: 0.3s all 0s ease;
+}
+
+nav .container a:hover {
+  opacity: 0.7;
+}
+
 
 nav .container .logo img {
   width: 300px;
