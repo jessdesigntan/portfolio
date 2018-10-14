@@ -651,7 +651,8 @@ section > div {
 .timezone .actions,
 .timezone .nightview,
 .timezone .inspiration,
-.timezone .conclusion {
+.timezone .conclusion,
+.timezone .design-process {
   padding-bottom: 100px;
 }
 
