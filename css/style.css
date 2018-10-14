@@ -372,7 +372,7 @@ footer {
   }
 }
 
-.fitness-portfolio .header .content {
+.portfolio .header .content {
   display: table;
   max-width: 1200px;
   margin: 0 auto;
@@ -380,30 +380,34 @@ footer {
   padding: 0 50px;
 }
 
-.fitness-portfolio .header .content > div {
+.portfolio .header .content > div {
   display: table-cell;
   vertical-align: middle;
   width: 40%;
 }
 
-.fitness-portfolio .header .content > div:last-child {
+.portfolio .header .content > div:last-child {
   width: 60%;
 }
 
-.fitness-portfolio .header .title {
+.portfolio .header .title {
   margin-bottom: 30px;
+}
+
+.portfolio .header .desc {
+  font-size: 18px;
+  letter-spacing: 0.5px;
 }
 
 .fitness-portfolio .header .desc {
   color: #aaa;
-  font-size: 18px;
 }
 
 body.fitness-portfolio {
   padding: 0;
 }
 
-.fitness-portfolio .header {
+.portfolio .header {
   position: relative;
 }
 
@@ -435,10 +439,10 @@ section > div {
   margin: 0 auto;
 }
 
-.fitness-portfolio .section-title {
+.portfolio .section-title {
   font-family: 'brandon_grotesqueblack';
   font-size: 28px;
-  padding-top: 50px;
+  padding-top: 100px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   font-weight: 100;
@@ -487,13 +491,12 @@ section > div {
   z-index: 2;
 }
 
-.fitness-portfolio .discover-bg {
+.full-image {
   display: block;
-  width:105%;
-  margin-left: -5px;
+  width: 100%;
 }
 
-.fitness-portfolio .discover-bg img {
+.full-image img {
   width: 100%;
 }
 
@@ -514,15 +517,17 @@ section > div {
 }
 
 .create-workout .title {
-  font-size: 48px;
-  color: #ddd;
+  font-size: 18px;
+  color: #333;
   margin-bottom: 20px;
   font-family: 'brandon_grotesqueblack';
+  text-transform: uppercase;
 }
 
 .create-workout .desc {
-  font-size: 18px;
-  line-height: 36px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
 }
 
 .create-workout .text {
@@ -595,4 +600,224 @@ section > div {
 
 .purple-bg .section-desc {
   color: #d6cde2;
+}
+
+.timezone .porfolio {
+  background-color: #1552ff;
+}
+
+.timezone.portfolio .header {
+  background-color: #1552ff;
+}
+
+.timezone .header .desc {
+  color: #a7b6ff;
+}
+
+.timezone nav {
+  background-color: #1552ff;
+  padding: 50px 50px 20px 50px;
+  margin: 0;
+}
+
+.timezone .blue-bg {
+  background-color: #1552ff;
+}
+
+.timezone .section-title {
+  color: #1552ff;
+  margin-bottom: 50px;
+}
+
+.timezone .blue-bg .section-title {
+  color: white;
+}
+
+.timezone p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #888;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+}
+
+.light-blue-bg {
+  background-color: #f3f6ff;
+}
+
+.timezone .flow,
+.timezone .states,
+.timezone .elements,
+.timezone .actions,
+.timezone .nightview,
+.timezone .inspiration,
+.timezone .conclusion {
+  padding-bottom: 100px;
+}
+
+.timezone .blue-bg.solution p.lead {
+  font-size: 18px;
+  font-family: 'Lato Bold';
+  color: white;
+}
+
+.timezone .blue-bg.solution p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #ddd;
+  letter-spacing: 0.5px;
+}
+
+.timezone .solution img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.timezone .solution .row > div:first-child {
+  padding-right: 70px;
+}
+
+.timezone .solution .row > div:last-child {
+  padding-left: 70px;
+}
+
+.blue-color {
+  color: #1552ff;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 16px;
+  list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 1em;
+  letter-spacing: 0.5px;
+  color: #666;
+}
+
+ul li a {
+  color: #777;
+}
+
+ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 16px;
+  background: url(../images/timezone/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+ul li.title {
+  margin-left: 10px;
+  color: #8ba0ff;
+  text-transform: uppercase;
+  font-family: 'brandon_grotesqueblack';
+}
+
+ul li.title::before {
+  content: none;
+}
+
+.timezone .elements .row > div:first-child {
+  padding-right: 50px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.18);
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.18);
+}
+
+.timezone .actions img {
+  margin: 0 auto;
+}
+
+.timezone .actions p.lead {
+  font-size: 18px;
+  text-align: center;
+}
+
+.timezone .nightview img {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.timezone .nightview p {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  color: #888;
+  letter-spacing: 0.5px;
+}
+
+.timezone .inspiration {
+  background: -moz-linear-gradient(top, rgba(3,10,30,1) 0%, rgba(19,45,98,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(3,10,30,1)), color-stop(100%, rgba(19,45,98,1)));
+  background: -webkit-linear-gradient(top, rgba(3,10,30,1) 0%, rgba(19,45,98,1) 100%);
+  background: -o-linear-gradient(top, rgba(3,10,30,1) 0%, rgba(19,45,98,1) 100%);
+  background: -ms-linear-gradient(top, rgba(3,10,30,1) 0%, rgba(19,45,98,1) 100%);
+  background: linear-gradient(to bottom, rgba(3,10,30,1) 0%, rgba(19,45,98,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030a1e', endColorstr='#132d62', GradientType=0 );
+}
+
+.timezone .inspiration img.stars {
+  width: 100%;
+}
+
+.timezone .inspiration img {
+  width: 70%;
+  margin: auto;
+}
+
+.timezone .inspiration p {
+  font-size: 16px;
+  line-height: 32px;
+  color: white;
+  opacity: 0.7;
+  letter-spacing: 0.5px;
+}
+
+.timezone .inspiration p.lead {
+  font-size: 18px;
+  font-family: 'Lato Bold';
+  color: white;
+  opacity: 1;
+}
+
+.timezone .inspiration .section-title {
+  color: white;
+}
+
+.portfolio .logo {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  display: table;
+}
+
+.portfolio .logo > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.timezone .logo img {
+  width: 200px;
+  margin: auto;
+}
+
+.fitness-portfolio .logo {
+  margin-top: 50px;
+}
+
+.fitness-portfolio .logo img {
+  width: 250px;
 }
