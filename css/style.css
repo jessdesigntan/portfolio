@@ -797,27 +797,27 @@ ul li.title::before {
   color: white;
 }
 
-.portfolio .logo {
+.portfolio .logo-footer {
   height: 150px;
   width: 100%;
   text-align: center;
   display: table;
 }
 
-.portfolio .logo > div {
+.portfolio .logo-footer > div {
   display: table-cell;
   vertical-align: middle;
 }
 
-.timezone .logo img {
+.timezone .logo-footer img {
   width: 200px;
   margin: auto;
 }
 
-.fitness-portfolio .logo {
+.fitness-portfolio .logo-footer {
   margin-top: 50px;
 }
 
-.fitness-portfolio .logo img {
+.fitness-portfolio .logo-footer img {
   width: 250px;
 }
