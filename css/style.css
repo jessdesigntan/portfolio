@@ -873,7 +873,8 @@ ul li.title::before {
 }
 
 .sharession .design-considerations,
-.sharession .factors {
+.sharession .factors,
+.sharession .final {
   padding-top: 100px;
 }
 
