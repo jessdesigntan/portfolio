@@ -822,3 +822,76 @@ ul li.title::before {
 .fitness-portfolio .logo-footer img {
   width: 250px;
 }
+
+.sharession.portfolio .header {
+  background-color: #2eb95c;
+}
+
+.sharession nav {
+  background-color: #2eb95c;
+  padding: 50px 50px 20px 50px;
+  margin: 0;
+}
+
+.green-bg {
+  background-color: #2eb95c;
+}
+
+.timezone nav .container .links > a,
+.sharession nav .container .links > a {
+  color: white;
+  opacity: 0.5;
+}
+
+.sharession .header p.small {
+  opacity: 0.5;
+  letter-spacing: 0.5px;
+}
+
+.sharession .header .title {
+  margin-left: -10px;
+}
+
+.sharession section {
+  padding-bottom: 100px;
+}
+
+.sharession .scenario .text {
+  font-size: 16px;
+  line-height: 40px;
+  color: #777;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.sharession .solution .text,
+.sharession .design-considerations .text,
+.sharession .final .text {
+  font-size: 16px;
+  line-height: 40px;
+  color: #777;
+  margin: auto;
+}
+
+.sharession .design-considerations {
+  padding-top: 100px;
+}
+
+.light-grey-bg {
+  background-color: #f7f7f7;
+}
+
+.sharession .solution .text,
+.sharession .design-considerations .text {
+  color: black;
+  opacity: 0.4;
+}
+
+.sharession section.final,
+.sharession section.logo-footer {
+  padding-bottom: 0;
+}
+
+.sharession .logo-footer img {
+  height: 30px;
+}
