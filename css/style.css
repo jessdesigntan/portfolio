@@ -142,6 +142,11 @@ header .intro-body {
   position: relative;
 }
 
+.st-card.card,
+.st.card-container {
+  height: 400px;
+}
+
 .card .text {
   text-align: center;
   position: absolute;
@@ -254,6 +259,11 @@ header .intro-body {
   color: #a89201;
 }
 
+.st-card .view-cta {
+  color: black;
+  background-color: white;
+}
+
 .card .cta:hover ~ span {
   opacity: 0.8;
 }
@@ -286,6 +296,16 @@ header .intro-body {
   color: #aaa;
 }
 
+.st-card .cta,
+.st-card .label {
+  background-color: #f2f2f2;
+  color: #aaa;
+}
+
+.st-card.card .text {
+  margin-top: 30px;
+}
+
 .fitness-card {
   background-color: #7028b0;
   background: url(../images/card-fitness.jpg) bottom center no-repeat;
@@ -315,6 +335,12 @@ header .intro-body {
   background: url(../images/card-dc.jpg) bottom center no-repeat;
   background-size: auto 600px;
   border-top: 6px solid #ff4c5d;
+}
+
+.st-card {
+  background-color: #f7f7f7;
+  background: url(../images/st_card.jpg) left center no-repeat;
+  background-size: cover;
 }
 
 .projects-div > div > div > a {
