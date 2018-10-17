@@ -44,6 +44,12 @@ a:hover {
   text-decoration: none;
 }
 
+p {
+  font-size: 18px;
+  line-height: 42px;
+  color: inherit;
+}
+
 nav {
   margin-top: 50px;
   margin-bottom: 20px;
@@ -500,6 +506,16 @@ section > div {
   width: 100%;
 }
 
+.full-image.double {
+  display: table;
+  width: 100%
+}
+
+.full-image.double img {
+  float: left;
+  width: 50%;
+}
+
 .section-table {
   display: table;
   width: 100%;
@@ -940,7 +956,7 @@ ul li.title::before {
   margin: auto;
 }
 
-.logo-process {
+.sqrl .logo-process {
   width: 600px;
   margin: auto;
 }
@@ -987,4 +1003,193 @@ ul li.title::before {
 
 .sqrl .logo-footer img {
   height: 30px;
+}
+
+.dearcarrie .header .image img {
+  max-width: 140%;
+}
+
+.pink-bg {
+  background-color: #e8595e;
+}
+
+.dearcarrie section {
+  padding-bottom: 100px;
+}
+
+.pink-bg .section-title {
+  color: white;
+}
+
+.dearcarrie {
+  color: #777;
+}
+
+.dearcarrie section.logo-footer {
+  padding-bottom: 0;
+}
+
+.dearcarrie .background h4 {
+  font-family: 'Lato Bold';
+  color: white;
+  font-size: 72px;
+  margin-bottom: 0;
+}
+
+.dearcarrie .background p {
+  color: white;
+  line-height: 40px;
+  font-size: 18px;
+  opacity: 0.6
+}
+
+.dearcarrie .background .highlights p {
+  margin: 0;
+}
+
+.dearcarrie .background p.lead {
+  opacity: 1;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.dearcarrie .background .desc p.lead {
+  border-bottom: 1px solid #cf4d53;
+  padding-bottom: 30px;
+}
+
+.dearcarrie .stats img {
+  padding: 50px;
+}
+
+.dearcarrie .stats p {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+}
+
+.dearcarrie .stats p.lead {
+  font-family: 'Lato Bold';
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.light-grey-color {
+  color: #ccc;
+}
+
+.dearcarrie .logo-process .process {
+  width: 800px;
+  margin: auto;
+}
+
+.dearcarrie .logo-process .logo {
+  width: 300px;
+  margin: unset;
+  margin: 50px 0;
+}
+
+.dearcarrie .search-img {
+  width: 400px;
+}
+
+.search .row > div:first-child {
+  display: table;
+}
+
+.table-div {
+  display: table;
+  width: 100%;
+}
+
+.table-div > div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.dearcarrie .table-div > div:first-child {
+  width: 65%;
+}
+
+.dearcarrie .table-div > div:last-child {
+  width: 35%;
+}
+
+.dearcarrie .visit-site {
+  position: relative;
+  padding-bottom: 0;
+}
+
+.dearcarrie .website-btn {
+  font-family: 'brandon_grotesqueblack';
+  text-transform: uppercase;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  width: 250px;
+  text-align: center;
+  padding: 15px 35px;
+  color: white;
+  background-color: #e8595e;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+  font-size: 18px;
+  left: calc(50% - 125px);
+  transition: all 0.3s ease 0s;
+}
+
+.dearcarrie .website-btn:hover {
+  opacity: 0.7;
+}
+
+.dearcarrie .logo-footer img {
+  height: 40px;
+}
+
+.dearcarrie nav .container .links a {
+  color: #ed5a60;
+  opacity: 0.3;
+}
+
+.fitness-portfolio nav .container .links a {
+  color: #571493;
+  opacity: 0.3;
+}
+
+.header .notes {
+  margin-top: 80px;
+  padding: 30px;
+  background-color: #f7f7f7;
+  display: inline-block;
+}
+
+.header .notes p {
+  margin: 0;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.header .notes .title {
+  margin-bottom: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.header .notes a {
+  color: #ed5a60;
+}
+
+.italic {
+  font-style: italic;
 }
