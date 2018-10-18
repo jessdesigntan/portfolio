@@ -1219,3 +1219,139 @@ ul li.title::before {
 .italic {
   font-style: italic;
 }
+
+.st section {
+  padding: 100px 0;
+}
+
+.st .role p.subtitle {
+  text-align: center;
+}
+
+.st p,
+.st .header .desc {
+  color: #777;
+}
+
+.st .year-label {
+  font-family: 'Lato Bold';
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: 1px;
+  opacity: 0.5;
+}
+
+.st .year {
+  font-family: 'brandon_grotesqueblack';
+  text-transform: uppercase;
+  margin: 0;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: center;
+  opacity: 0.3;
+}
+
+.st .year::after {
+  content: '';
+  display: block;
+  margin: 20px auto 10px auto;
+  border-bottom: 1px solid #ccc;
+  width: 30px;
+}
+
+.st .black-bg {
+  background-color: black;
+}
+
+.section-title.light {
+  color: white;
+}
+
+.st .section-title {
+  padding-top: 0;
+}
+
+.st .section-subtitle {
+  font-family: 'brandon_grotesqueblack';
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.st .revamp .section-subtitle {
+  color: white;
+  opacity: 0.5;
+}
+
+.st .revamp .table-div > div:first-child {
+  width: 35%;
+  padding-right: 50px;
+}
+
+.st .banner {
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.12);
+}
+
+p.small {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.st .cny p.lead {
+  line-height: normal;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.st .cny p.lead::after {
+  content: '';
+  display: block;
+  margin: 20px 0 10px 0;
+  border-bottom: 1px solid #ccc;
+  width: 30px;
+}
+
+.st .website-btn {
+  font-family: 'brandon_grotesqueblack';
+  text-transform: uppercase;
+  border-radius: 30px;
+  display: block;
+  margin: 50px auto 0 auto;
+  width: 250px;
+  text-align: center;
+  padding: 15px 35px;
+  color: white;
+  background-color: black;
+  letter-spacing: 2px;
+  z-index: 1;
+  font-size: 18px;
+  left: calc(50% - 125px);
+  transition: all 0.3s ease 0s;
+}
+
+.st .logo-footer {
+  background-color: #f7f7f7;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.st .logo-footer img {
+  height: 80px;
+}
+
+.st .banners .row > div {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.st nav .container .links > a {
+  color: black;
+  opacity: 0.2;
+}
