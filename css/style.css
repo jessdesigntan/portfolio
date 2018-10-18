@@ -1576,8 +1576,7 @@ p.small {
   }
 
   .dearcarrie .visit-site img {
-    max-width: 140%;
-    margin-left: -20%;
+    max-width: 100%;
   }
 
   p,
@@ -1591,6 +1590,10 @@ p.small {
 
   .full-image.double img {
     width: 100%;
+  }
+
+  .dearcarrie .website-btn {
+    top: 0;
   }
 
   .sqrl nav {
@@ -1772,6 +1775,11 @@ p.small {
 
   .fitness-portfolio .logo-footer {
     margin-top: 0;
+  }
+
+  .sharession .design-considerations,
+  .sharession .factors {
+    padding-top: 20px;
   }
 }
 
