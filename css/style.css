@@ -890,7 +890,11 @@ ul li.title::before {
 }
 
 .timezone nav .container .links > a,
-.sharession nav .container .links > a,
+.sharession nav .container .links > a {
+  color: white;
+  opacity: 0.5;
+}
+
 .sqrl nav .container .links > a {
   color: black;
   opacity: 0.2;
@@ -1622,5 +1626,60 @@ p.small {
 
   .sharession .logo-footer {
     padding: 0;
+  }
+
+  .timezone .header .image img {
+    margin-left: -20px;
+  }
+
+  .timezone section {
+    padding: 20px 0 !important;
+  }
+
+  .timezone hr {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .timezone .solution .row > div:first-child,
+  .timezone .elements .row > div:first-child {
+    padding-right: 15px;
+  }
+
+  .timezone .solution .row > div:last-child {
+    padding-left: 15px;
+  }
+
+  .timezone .solution img {
+    display: block;
+    margin: auto;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  .states img,
+  .timezone .actions img,
+  .timezone .nightview img {
+    margin: 0 auto 30px auto;
+  }
+
+  .timezone .nightview img {
+    width: 100%;
+  }
+
+  .states img.meeting-block {
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+
+  .timezone .inspiration img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .timezone .logo-footer img {
+    width: 150px;
   }
 }
