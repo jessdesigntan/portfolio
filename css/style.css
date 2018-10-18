@@ -458,6 +458,7 @@ body.fitness-portfolio {
   position: absolute;
   background: url(../images/workitout/header_bg.svg) bottom center no-repeat;
   background-size: contain;
+  left: 0;
   bottom: -50px;
   width: 101%;
   height: 100%;
@@ -1383,7 +1384,19 @@ p.small {
   height: 40px;
 }
 
+.fitness-portfolio .header .title img {
+  height: 60px;
+}
+
+.show-mobile {
+  display: none !important;
+}
+
 @media only screen and (max-width: 767px) {
+  .show-mobile {
+    display: block !important;
+  }
+
   .hide-mobile {
     display: none !important;
   }
@@ -1682,4 +1695,87 @@ p.small {
   .timezone .logo-footer img {
     width: 150px;
   }
+
+  .fitness-portfolio .header .title img {
+    height: 40px;
+  }
+
+  .fitness-portfolio .bottom-bg {
+    display: none;
+  }
+
+  .fitness-portfolio section {
+    padding: 20px;
+  }
+
+  .start-workout .text .title {
+    font-size: 18px;
+  }
+
+  .fitness-portfolio h4,
+  .fitness-portfolio p {
+    text-align: center;
+  }
+
+  .fitness-portfolio .concept .row > div:first-child {
+    padding-right: 15px;
+  }
+
+  .fitness-portfolio .concept .row > div:last-child {
+    padding-left: 15px;
+  }
+
+  .start-swipe img {
+    width: 100%;
+  }
+
+  .start-workout .text {
+    padding: 0;
+  }
+
+  .section-table > div {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .section-table > div:last-child {
+    padding-left: 0;
+  }
+
+  .create-workout .text {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .create-workout img {
+    margin-bottom: 30px;
+  }
+
+  .create-workout .content {
+    padding-bottom: 0;
+  }
+
+  .fitness-portfolio hr {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .start-swipe {
+    margin-bottom: 20px;
+  }
+
+  .start-workout .text .title {
+    text-align: center;
+  }
+
+  .fitness-portfolio .logo-footer {
+    margin-top: 0;
+  }
+}
+
+.st hr {
+  margin-top: 0;
+  margin-bottom: 0;
 }
