@@ -1375,7 +1375,15 @@ p.small {
   height: 80px;
 }
 
+.dearcarrie .header .title img {
+  height: 40px;
+}
+
 @media only screen and (max-width: 767px) {
+  .hide-mobile {
+    display: none !important;
+  }
+
   nav .container > a.logo {
     margin-bottom: 20px;
     text-align: center;
@@ -1430,6 +1438,7 @@ p.small {
   }
 
   .portfolio .section-title {
+    padding-top: 0;
     margin-bottom: 10px;
   }
 
@@ -1472,5 +1481,92 @@ p.small {
 
   .portfolio .header {
     padding: 0;
+  }
+
+  .dearcarrie .header .title img {
+    height: 30px;
+  }
+
+  .dearcarrie .header .image img {
+    max-width: 140%;
+    margin-left: -20%;
+  }
+
+  .dearcarrie .stats img {
+    padding: 0;
+  }
+
+  .dearcarrie .stats p.lead {
+    font-size: 24px;
+  }
+
+  .dearcarrie hr {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .dearcarrie .background h4 {
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .dearcarrie .background p.lead {
+    font-size: 18px;
+    line-height: 32px;
+    font-style: normal;
+  }
+
+  .dearcarrie section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .dearcarrie .background p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .dearcarrie .logo-process .logo {
+    width: 200px;
+    margin: 20px auto;
+  }
+
+  .dearcarrie .logo-process {
+    text-align: center;
+  }
+
+  .table-div {
+    display: block;
+  }
+
+  .table-div > div {
+    display: block;
+    width: 100%;
+  }
+
+  .dearcarrie .table-div > div:first-child {
+    width: 100%;
+  }
+
+  .dearcarrie .table-div > div:last-child {
+    width: 100%;
+  }
+
+  .dearcarrie .visit-site img {
+    max-width: 140%;
+    margin-left: -20%;
+  }
+
+  p,
+  .dearcarrie .background h4 {
+    text-align: center;
+  }
+
+  .dearcarrie .logo-footer img {
+    height: 30px;
+  }
+
+  .full-image.double img {
+    width: 100%;
   }
 }
