@@ -1781,6 +1781,11 @@ p.small {
   .sharession .factors {
     padding-top: 20px;
   }
+
+  .sharession .solution img.solution {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 .st hr {
