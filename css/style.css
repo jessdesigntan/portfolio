@@ -892,8 +892,8 @@ ul li.title::before {
 .timezone nav .container .links > a,
 .sharession nav .container .links > a,
 .sqrl nav .container .links > a {
-  color: white;
-  opacity: 0.5;
+  color: black;
+  opacity: 0.2;
 }
 
 .sharession .header p.small {
@@ -1391,10 +1391,16 @@ p.small {
   }
 
   nav {
-    border-bottom: 1px solid #eee;
     padding-bottom: 20px;
     padding-top: 20px;
     margin-top: 0;
+  }
+
+  nav::after {
+    content: '';
+    border-bottom: 1px solid black;
+    width: 50px;
+    margin: 10px auto;
   }
 
   .st-card.card, .st.card-container {
@@ -1568,5 +1574,37 @@ p.small {
 
   .full-image.double img {
     width: 100%;
+  }
+
+  .sqrl nav {
+    padding-top: 30px;
+  }
+
+  .sqrl .header .content {
+    padding-top: 20px;
+  }
+
+  .sqrl .logo-process,
+  .design-style img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .sqrl section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .sqrl .design-style .section-title {
+    margin-bottom: 40px;
+  }
+
+  .how-it-works img {
+    width: 100%;
+  }
+
+  .sqrl .logo-footer {
+    padding-top: 0;
+    margin-top: -1px;
   }
 }
