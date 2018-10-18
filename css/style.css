@@ -1607,4 +1607,20 @@ p.small {
     padding-top: 0;
     margin-top: -1px;
   }
+
+  .sharession section {
+    padding: 20px 0;
+  }
+
+  .sharession .factors img {
+    width: 100%;
+  }
+
+  .sharession .final {
+    padding-top: 20px;
+  }
+
+  .sharession .logo-footer {
+    padding: 0;
+  }
 }
