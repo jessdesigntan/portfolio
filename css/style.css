@@ -61,7 +61,7 @@ nav .container {
   margin: 0 auto;
   display: table;
   width: 100%;
-  padding: 0 55px;
+  padding: 0;
 }
 
 nav .container > div {
@@ -145,6 +145,10 @@ header .intro-body {
 .st-card.card,
 .st.card-container {
   height: 400px;
+}
+
+.st-card .title img {
+  height: 45px;
 }
 
 .card .text {
@@ -268,6 +272,9 @@ header .intro-body {
   opacity: 0.8;
 }
 
+.fitness-card .title img {
+  height: 45px;
+}
 
 .fitness-card .cta,
 .fitness-card .label {
@@ -364,7 +371,7 @@ footer {
 
 @media only screen and (max-width: 991px) {
   .card-container {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .no-margin-bottom {
@@ -396,11 +403,15 @@ footer {
     display: block;
     text-align: center;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 0;
   }
 
   nav .container .links {
     text-align: center;
+  }
+
+  .projects-div {
+    padding: 0 20px;
   }
 }
 
@@ -409,7 +420,6 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
-  padding: 0 50px;
 }
 
 .portfolio .header .content > div {
@@ -441,6 +451,7 @@ body.fitness-portfolio {
 
 .portfolio .header {
   position: relative;
+  padding: 0 50px;
 }
 
 .fitness-portfolio .bottom-bg {
@@ -1354,4 +1365,112 @@ p.small {
 .st nav .container .links > a {
   color: black;
   opacity: 0.2;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+.st.portfolio .header .title img {
+  height: 80px;
+}
+
+@media only screen and (max-width: 767px) {
+  nav .container > a.logo {
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+  }
+
+  nav {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+  }
+
+  .st-card.card, .st.card-container {
+    height: 600px;
+    background: url(../images/st_card_mobile.jpg) left center no-repeat;
+    background-size: cover;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .fitness-card .title img {
+    height: 35px;
+  }
+
+  .portfolio .header .content {
+    padding: 0 20px;
+  }
+
+  .portfolio .header .content > div {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .portfolio .header .content > div:last-child {
+    width: 100%;
+  }
+
+  .st.portfolio .header .title img {
+    height: 50px;
+  }
+
+  .st section {
+    padding: 20px 0;
+  }
+
+  section > div {
+    padding: 0 20px;
+  }
+
+  .portfolio .section-title {
+    margin-bottom: 10px;
+  }
+
+  .st hr {
+    margin: 0;
+  }
+
+  p {
+    line-height: 32px;
+  }
+
+  .section-title,
+  .st .section-subtitle {
+    text-align: center;
+  }
+
+  .table-div {
+    display: block;
+  }
+
+  .st .revamp .table-div > div:first-child {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .st p {
+    text-align: center;
+  }
+
+  .st .cny p.lead::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .st .logo-footer img {
+    height: 50px;
+  }
+
+  .portfolio .header {
+    padding: 0;
+  }
 }
