@@ -1048,7 +1048,8 @@ ul li.title::before {
 }
 
 .dearcarrie .header .image img {
-  max-width: 140%;
+  max-width: 100%;
+  margin-left: 0;
 }
 
 .pink-bg {
