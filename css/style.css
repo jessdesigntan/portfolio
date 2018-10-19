@@ -99,7 +99,7 @@ nav .container .links a {
   font-family: 'brandon_grotesqueblack';
   text-transform: uppercase;
   font-size: 20px;
-  color: #c7d2f9;
+  color: #234ef3;
   letter-spacing: 5px;
 }
 
@@ -111,10 +111,10 @@ nav .container .links > a:last-child {
   margin-right: 0;
 }
 
-header .intro-body {
-  max-width: 1200px;
-  margin: 30px auto;
-  padding: 0 50px;
+footer {
+  border-top: 1px solid #eee;
+  display: block;
+  padding: 50px;
 }
 
 .projects-div {
@@ -122,6 +122,10 @@ header .intro-body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 50px;
+}
+
+.projects-div hr {
+  margin-bottom: 30px;
 }
 
 .projects-div > .row {
@@ -362,11 +366,6 @@ header .intro-body {
   -o-transform: scale(1.01);
   -ms-transform: scale(1.01); /* IE 9 */
   transition: 0.3s all 0s ease;
-}
-
-footer {
-  display: block;
-  height: 200px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -891,15 +890,12 @@ ul li.title::before {
   background-color: #2fb758;
 }
 
-.timezone nav .container .links > a,
-.sharession nav .container .links > a {
+.timezone nav .container .links > a {
   color: white;
-  opacity: 0.5;
 }
 
 .sqrl nav .container .links > a {
   color: black;
-  opacity: 0.2;
 }
 
 .sharession .header p.small {
@@ -1194,16 +1190,6 @@ ul li.title::before {
   height: 40px;
 }
 
-.dearcarrie nav .container .links a {
-  color: #ed5a60;
-  opacity: 0.3;
-}
-
-.fitness-portfolio nav .container .links a {
-  color: #571493;
-  opacity: 0.3;
-}
-
 .header .notes {
   margin-top: 80px;
   padding: 30px;
@@ -1366,11 +1352,6 @@ p.small {
 .st .banners .row > div {
   padding-left: 5px;
   padding-right: 5px;
-}
-
-.st nav .container .links > a {
-  color: black;
-  opacity: 0.2;
 }
 
 .hide-desktop {
@@ -1648,10 +1629,6 @@ p.small {
     margin-left: -20px;
   }
 
-  .intro-body p {
-    margin-bottom: 0;
-  }
-
   .timezone section {
     padding: 20px 0 !important;
   }
@@ -1803,4 +1780,148 @@ p.small {
 
 html.dc {
   overflow-x: hidden;
+}
+
+.intro-body .name {
+  font-family: 'brandon_grotesqueblack';
+  text-transform: uppercase;
+  font-size: 42px;
+  letter-spacing: 3px;
+  color: #234ef3;
+}
+
+.intro-body .name .light {
+  color: #c7d2f9;
+}
+
+.intro-body .subtitle {
+  text-transform: uppercase;
+  font-family: 'brandon_grotesqueblack';
+  color: black;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.intro-body .subtitle::after {
+  margin: 30px 0;
+  content: '';
+  width: 50px;
+  border-bottom: 3px solid black;
+  display: block;
+}
+
+.intro-body .intro {
+  color: black;
+}
+
+.intro-body .intro img {
+  margin: -3px 10px;
+  height: 30px;
+}
+
+footer .content {
+  text-align: center;
+}
+
+footer .content .name {
+  color: black;
+  font-family: 'brandon_grotesqueblack';
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+footer .content .name::after {
+  content: '';
+  border-bottom: 3px solid black;
+  width: 30px;
+  margin: 20px auto;
+  display: block;
+}
+
+footer .content .email {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+footer .content .email-sub {
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.img-list {
+  display: block;
+}
+
+.img-list > * {
+  display: inline-block;
+}
+
+.img-list img {
+  width: 100px;
+}
+
+footer .img-list {
+  margin-top: 20px;
+}
+
+footer .img-list img {
+  margin: 0 10px;
+  width: 40px;
+}
+
+header > div {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: table;
+  padding: 0 50px;
+  width: 100%;
+}
+
+header > div > div  {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+}
+
+header .profile-img img {
+  float: right;
+}
+
+footer .logo {
+  width: 300px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .intro-body .name {
+    font-size: 20px;
+  }
+
+  header > div {
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+
+  header > div > div {
+    display: block;
+    width: 100%;
+  }
+
+  header .profile-img img {
+    float: unset;
+    width: 120px;
+    margin: auto;
+  }
+
+  header .intro-body {
+    text-align: center;
+  }
+
+  .intro-body .subtitle::after {
+    display: none;
+  }
 }
