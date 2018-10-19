@@ -14,7 +14,19 @@
     <link href="css/animate.css" rel="stylesheet">
     <script src="js/wow.js"></script>
     <script>new WOW().init();</script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+      $(window).load(function() {
+         $(".loader").fadeOut("slow");
+       })
+      // setTimeout(function () {
+      //   $(".loader").fadeOut("slow");
+      // }, 1000);
+    </script>
+  </head>
+    <div class="loader">
+      <div class="loader-logo wow pulse"></div>
+    </div>
     <body>
       <nav>
         <div class="container">

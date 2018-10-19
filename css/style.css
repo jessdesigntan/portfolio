@@ -1896,7 +1896,32 @@ footer .logo {
   margin: auto;
 }
 
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: rgba(52,39,255,1);
+}
+
+.loader .loader-logo {
+	background: url('../images/logo_timezone.svg') 50% 50% no-repeat rgba(52,39,255,1);
+  background-size: 20% auto;
+  position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+
 @media only screen and (max-width: 767px) {
+  .loader .loader-logo {
+    background-size: 80% auto;
+  }
+
   .intro-body .name {
     font-size: 20px;
   }
