@@ -86,7 +86,7 @@ nav .container a:hover {
 
 
 nav .container .logo img {
-  width: 300px;
+  width: 100px;
 }
 
 nav .container .links {
@@ -101,6 +101,22 @@ nav .container .links a {
   font-size: 20px;
   color: #234ef3;
   letter-spacing: 5px;
+}
+
+.dearcarrie nav .container .links a {
+  color: #e8595e;
+}
+
+.sharession nav .container .links > a {
+  color: rgba(0,0,0,0.5);
+}
+
+.fitness-portfolio nav .container .links a {
+  color: #7e25f2;
+}
+
+.st nav .container .links > a {
+  color: black;
 }
 
 nav .container .links > a {
@@ -388,7 +404,7 @@ footer {
   }
 
   nav .container .logo img {
-    width: 250px;
+    width: 100px;
   }
 
   nav .container .links a {
@@ -1784,9 +1800,8 @@ html.dc {
 
 .intro-body .name {
   font-family: 'brandon_grotesqueblack';
-  text-transform: uppercase;
   font-size: 42px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   color: #234ef3;
 }
 
@@ -1892,7 +1907,7 @@ header .profile-img img {
 }
 
 footer .logo {
-  width: 300px;
+  width: 100px;
   margin: auto;
 }
 
