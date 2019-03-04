@@ -38,6 +38,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  box-shadow: none;
 }
 
 a:hover {
@@ -74,6 +75,19 @@ nav .container > div {
 nav .container a.logo {
   display: inline-block;
   cursor: pointer;
+  font-family: 'brandon_grotesqueblack';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 22px;
+  color: black;
+}
+
+.lite {
+  opacity: 0.3;
+}
+
+nav .container a.logo:hover {
+  color: inherit;
 }
 
 nav .container a {
@@ -98,12 +112,12 @@ nav .container .links {
 nav .container .links a {
   font-family: 'brandon_grotesqueblack';
   text-transform: uppercase;
-  font-size: 20px;
-  color: #234ef3;
-  letter-spacing: 5px;
+  font-size: 22px;
+  color: black;
+  letter-spacing: 2px;
 }
 
-.dearcarrie nav .container .links a {
+.dearcarrie nav .container a {
   color: #e8595e;
 }
 
@@ -111,7 +125,7 @@ nav .container .links a {
   color: rgba(0,0,0,0.5);
 }
 
-.fitness-portfolio nav .container .links a {
+.fitness-portfolio nav .container a {
   color: #7e25f2;
 }
 
@@ -160,6 +174,7 @@ footer {
   height: 600px;
   border-radius: 3px;
   position: relative;
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.18);
 }
 
 .st-card.card,
@@ -693,6 +708,10 @@ section > div {
   background-color: #1552ff;
 }
 
+.blue-bg {
+  background-color: #1552ff;
+}
+
 .timezone .section-title {
   color: #1552ff;
   margin-bottom: 50px;
@@ -867,16 +886,45 @@ ul li.title::before {
   color: white;
 }
 
-.portfolio .logo-footer {
-  height: 150px;
+.logo-footer > div {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 40px;
+}
+
+.logo-footer p {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'brandon_grotesqueblack';
+  letter-spacing: 1px;
+  opacity: 0.5;
+  font-size: 15px;
+  margin: 0 0 10px 0;
+}
+
+.sharession .logo-footer p,
+.sqrl .logo-footer p,
+.dearcarrie .logo-footer p {
+  color: black;
+}
+
+.st .logo-footer p {
+  color: white;
+}
+
+.portfolio .logo-footer,
+.st section.logo-footer {
+  min-height: 170px;
   width: 100%;
   text-align: center;
   display: table;
+  padding: 0;
 }
 
 .portfolio .logo-footer > div {
   display: table-cell;
   vertical-align: middle;
+  padding: 30px
 }
 
 .timezone .logo-footer img {
@@ -884,12 +932,16 @@ ul li.title::before {
   margin: auto;
 }
 
+.logo-footer a {
+  display: inline-block;
+}
+
 .fitness-portfolio .logo-footer {
   margin-top: 50px;
 }
 
 .fitness-portfolio .logo-footer img {
-  width: 250px;
+  width: 200px;
 }
 
 .sharession.portfolio .header {
@@ -906,7 +958,7 @@ ul li.title::before {
   background-color: #2fb758;
 }
 
-.timezone nav .container .links > a {
+.timezone nav .container a {
   color: white;
 }
 
@@ -998,7 +1050,7 @@ ul li.title::before {
   background-color: #fcd846;
 }
 
-.sqrl .yellow-bg {
+.yellow-bg {
   background-color: #f3c300;
 }
 
@@ -1203,7 +1255,7 @@ ul li.title::before {
 }
 
 .dearcarrie .logo-footer img {
-  height: 40px;
+  height: 60px;
 }
 
 .header .notes {
@@ -1355,14 +1407,8 @@ p.small {
   transition: all 0.3s ease 0s;
 }
 
-.st .logo-footer {
-  background-color: #f7f7f7;
-  margin-top: 50px;
-  padding: 0;
-}
-
 .st .logo-footer img {
-  height: 80px;
+  height: 40px;
 }
 
 .st .banners .row > div {
@@ -1798,6 +1844,10 @@ html.dc {
   overflow-x: hidden;
 }
 
+p.intro {
+  line-height: 26px;
+}
+
 .intro-body .name {
   font-family: 'brandon_grotesqueblack';
   font-size: 42px;
@@ -1812,7 +1862,7 @@ html.dc {
 .intro-body .subtitle {
   text-transform: uppercase;
   font-family: 'brandon_grotesqueblack';
-  color: black;
+  color: #9AB5FF;
   font-size: 18px;
   letter-spacing: 2px;
 }
@@ -1821,7 +1871,7 @@ html.dc {
   margin: 30px 0;
   content: '';
   width: 50px;
-  border-bottom: 3px solid black;
+  border-bottom: 1px solid #ccc;
   display: block;
 }
 
@@ -1842,7 +1892,7 @@ footer .content .name {
   color: black;
   font-family: 'brandon_grotesqueblack';
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 22px;
   letter-spacing: 2px;
   text-align: center;
 }
@@ -1904,6 +1954,7 @@ header > div > div  {
 
 header .profile-img img {
   float: right;
+  border-radius: 50%;
 }
 
 footer .logo {
